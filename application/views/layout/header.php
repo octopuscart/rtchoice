@@ -15,10 +15,7 @@
             "@context": "https://schema.org/",
             "@type": "Movers Company",
             "name": "PROFESSIONAL MOVING SERVICES",
-            "author": {
-            "@type": "Person",
-            "name": "Mr. Mohammad Siraj"
-            },
+
             "datePublished": "2020-11-10",
             "description": "Top PROFESSIONAL MOVING SERVICES Company",
             "prepTime": "PT20M"
@@ -29,7 +26,7 @@
 
 
         <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-        <link rel="shortcut icon" href="<?php echo base_url(); ?>assets/img/favicon.ico"/>
+    
 
         <!-- styles-->
         <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/styles.min.css"/>

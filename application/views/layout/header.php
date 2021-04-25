@@ -26,7 +26,7 @@
 
 
         <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-    
+
 
         <!-- styles-->
         <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/styles.min.css"/>
@@ -58,14 +58,47 @@
         </script>
     </head>
     <link href="<?php echo base_url(); ?>assets/css/custom.css" rel="stylesheet">
-<script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
 
-
+    <?php
+    $mainmenu = [
+        array("title" => "HOME"),
+        array("title" => "GALLERY"),
+        array("title" => "SERVICES"),
+        array("title" => "ABOUT"),
+        array("title" => "CONTACT"),
+    ];
+    ?>
 
 
 </head>
 <body>
+    <!-- menu dropdown start-->
+    <div class="menu-dropdown">
+        <div class="menu-dropdown__inner" data-value="start">
+            <div class="screen screen--start">
+                <div class="menu-dropdown__close">
+                     <i class="icon fas fa-times"></i>
+                </div>
+                <div class="d-block d-lg-none bottom-20">
+                    <?php
+                    foreach ($mainmenu as $key => $value) {
+                        ?>
+                        <div class="screen__item screen--trigger " data-category="screen-one"><span><?php echo $value["title"]; ?></span><span>
+                                <svg class="icon">
+                                <use xlink:href="#chevron-right"></use>
+                                </svg></span></div>
+                        <?php
+                    }
+                    ?>
+                </div>
 
+
+            </div>
+        </div>
+
+    </div>
+    <!-- menu dropdown end-->
     <div class="page-wrapper">
         <!-- header start-->
         <header class="page-header_2">
@@ -73,7 +106,7 @@
                 <div class="container-fluid">
                     <div class="row align-items-center">
                         <div class="col-xl-8"><span>
-                             
+
                                 <svg class="icon">
                                 <use xlink:href="#phone"></use>
                                 </svg><a href="tel:+852 2736 6552">+(852) 2736 6552</a></span><span>
@@ -111,29 +144,23 @@
                 <div class="container-fluid">
                     <div class="row align-items-center">
                         <div class="col-8 col-md-6 col-lg-3 d-flex align-items-center">
-                            
+
                             <!-- menu-trigger end-->
-                            <div class="page-header__logo logo--white"><a href="<?php echo site_url("/");?>"><img src="<?php echo base_url(); ?>assets/images/logo_w.png" alt="logo"/></a></div>
-                            <div class="page-header__logo logo--dark"><a href="<?php echo site_url("/");?>"><img src="<?php echo base_url(); ?>assets/images/logo.png" alt="logo"/></a></div>
+                            <div class="page-header__logo logo--white"><a href="<?php echo site_url("/"); ?>"><img src="<?php echo base_url(); ?>assets/images/logo_w.png" alt="logo"/></a></div>
+                            <div class="page-header__logo logo--dark"><a href="<?php echo site_url("/"); ?>"><img src="<?php echo base_url(); ?>assets/images/logo.png" alt="logo"/></a></div>
                         </div>
                         <div class="col-lg-5 d-none d-lg-block">
                             <!-- main menu start-->
                             <ul class="main-menu main-menu--white">
-                                <li class="main-menu__item  main-menu__item--active"><a class="main-menu__link" href="javascript:void(0);"><span>Home</span></a>
-                                
-                                </li>
-                                <li class="main-menu__item "><a class="main-menu__link" href="javascript:void(0);"><span>Gallery</span></a>
-                                   
-                                </li>
-                                <li class="main-menu__item "><a class="main-menu__link" href="javascript:void(0);"><span>Services</span></a>
-                                  
-                                </li>
-                                <li class="main-menu__item "><a class="main-menu__link" href="javascript:void(0);"><span>About</span></a>
-                                    
-                                </li>
-                                <li class="main-menu__item "><a class="main-menu__link" href="javascript:void(0);"><span>Contact</span></a>
-                                  
-                                </li>
+                                <?php
+                                foreach ($mainmenu as $key => $value) {
+                                    ?>
+                                    <li class="main-menu__item  "><a class="main-menu__link" href="javascript:void(0);"><span><?php echo $value["title"]; ?></span></a>
+
+                                    </li>
+                                    <?php
+                                }
+                                ?>
                             </ul>
                             <!-- main menu end-->
                         </div>
@@ -143,12 +170,12 @@
                                 <!-- lang select start-->
                                 <ul class="lang-select lang-select--white">
                                     <li class="lang-select__item lang-select__item--active"><span>En</span>
-                                       
+
                                     </li>
                                 </ul>
                                 <!-- lang select end-->
                             </div>
-                           
+
                             <!-- menu-trigger start-->
                             <div class="hamburger d-inline-block d-md-none hamburger--white">
                                 <div class="hamburger-inner"></div>

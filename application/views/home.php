@@ -16,7 +16,7 @@ $this->load->view('layout/header');
                     <div class="row align-items-center">
                         <div class="col-lg-7 col-xl-6">
                             <h2 class="front-promo__title">Worldwide Shipping<span class="front-promo__overlay">Smart Tech</span></h2>
-                            <p class="front-promo__subtitle">We have been shipping cargo for our clients all over <br/>the world since more than 13 years</p><a class="button button--promo" href="#"><span>Explore more</span> 
+                            <p class="front-promo__subtitle">We have been shipping cargo for our clients all over <br/>the world since more than <?php echo date("y"); ?> years</p><a class="button button--promo" href="#"><span>Explore more</span> 
                                 <svg class="icon">
                                 <use xlink:href="#arrow"></use>
                                 </svg></a>

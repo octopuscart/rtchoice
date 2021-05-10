@@ -55,7 +55,18 @@
             }
 
             font()
+            setInterval(function () {
+                $(".smat-footer").hide();
+            }, 2000);
+            setTimeout(function () {
+                $(".smat-footer").hide();
+            }, 2000);
         </script>
+        <script>var chatbot_id = 7452;!function () {
+                var t, e, a = document, s = "smatbot-chatbot";
+                a.getElementById(s) || (t = a.createElement("script"), t.id = s, t.type = "text/javascript", t.src = "https://smatbot.s3.amazonaws.com/files/smatbot_plugin.js.gz", e = a.getElementsByTagName("script")[0], e.parentNode.insertBefore(t, e))
+            }();</script><script src="https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js"></script>
+
     </head>
     <link href="<?php echo base_url(); ?>assets/css/custom.css" rel="stylesheet">
     <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
@@ -78,7 +89,7 @@
         <div class="menu-dropdown__inner" data-value="start">
             <div class="screen screen--start">
                 <div class="menu-dropdown__close">
-                     <i class="icon fas fa-times"></i>
+                    <i class="icon fas fa-times"></i>
                 </div>
                 <div class="d-block d-lg-none bottom-20">
                     <?php

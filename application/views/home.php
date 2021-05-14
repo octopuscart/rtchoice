@@ -102,9 +102,9 @@ $this->load->view('layout/header');
                     <div class="heading bottom-20"><span class="heading__pre-title">About Smart Tech</span>
                         <h3 class="heading__title">The Best Transportation Company in Hong Kong</h3><span class="heading__layout">About</span>
                     </div>
-                    <p>In 1995 we started our business from Pak-Afghan Forwarders International Company as a forwarders company. The fast growing market took us one step further in business. Later on, in 2000 we establish Smart-tech Logistics (HK) Ltd and made the Pak-Afghan Forwarders International a sub-company of Smart-tech Logistics (HK) Ltd.</p>
+                    <p>In 1995 we started our business from Pak-Afghan Forwarders International Company as a forwarders company. The fast growing market took us one step further in business. Later on, in 2000 we establish Smart Tech  Logistics (HK) Ltd and made the Pak-Afghan Forwarders International a sub-company of Smart Tech  Logistics (HK) Ltd.</p>
                     <p>At the beginning, its business was mainly shipping from Hong Kong to all over the world, but afterward, we expanded our business and now we have a number of agents in different countries, so that we can keep up with the rapid expansion of our business and provide excellent service to our clients.</p>
-                    <p class="bottom-40"><strong>Smart-tech has more than <?php echo date("y"); ?> years of experience in Shipping, Transportation and Logistics. We guarantee our customer reliable service and support.</strong></p><a class="button button--green" href="#"><span>More about</span> 
+                    <p class="bottom-40"><strong>Smart Tech  has more than <?php echo date("y"); ?> years of experience in Shipping, Transportation and Logistics. We guarantee our customer reliable service and support.</strong></p><a class="button button--green" href="#"><span>More about</span> 
                         <svg class="icon">
                         <use xlink:href="#arrow"></use>
                         </svg></a>
@@ -124,7 +124,7 @@ $this->load->view('layout/header');
                 </div>
                 <div class="col-lg-8 top-20 top-lg-0">
                     <p class="bottom-0">
-                        <strong>Smart-tech has more than <?php echo date("y"); ?> years of experience in Shipping</strong>, Transportation and Logistics. We guarantee our customer reliable service and support.
+                        <strong>Smart Tech  has more than <?php echo date("y"); ?> years of experience in Shipping</strong>, Transportation and Logistics. We guarantee our customer reliable service and support.
                     </p><a class="button button--green d-none d-lg-inline-block top-30 top-lg-none" href="#"><span>All services</span> 
                         <svg class="icon">
                         <use xlink:href="#arrow"></use>
@@ -250,7 +250,7 @@ $this->load->view('layout/header');
             <div class="row align-items-end bottom-60">
                 <div class="col-lg-12 col-xl-12">
                     <div class="heading"><span class="heading__pre-title">Features</span>
-                        <h3 class="heading__title">Powerfull Features of <span class="color--green">Smart-tech </span> Logistics</h3><span class="heading__layout layout--lgray">Features</span>
+                        <h3 class="heading__title">Powerfull Features of <span class="color--green">Smart Tech  </span> Logistics</h3><span class="heading__layout layout--lgray">Features</span>
                     </div>
                 </div>
             </div>

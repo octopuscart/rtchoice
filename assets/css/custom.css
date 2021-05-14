@@ -7,7 +7,7 @@
     section.section {
         padding: 70px 0;
     }
- .main-menu__item .main-menu__link {
+    .main-menu__item .main-menu__link {
         padding: 35px 20px 30px 20px;
     }
     .page-header--fixed .main-menu__item .main-menu__link {
@@ -26,4 +26,9 @@
     min-height: 100%;
     padding: 100px 56px 120px 45px;
     background: #31373f;
+}
+
+@media only screen and (min-width:992px){
+    .testimonials__nav{display: inline-block;
+                       height: 200px;}
 }

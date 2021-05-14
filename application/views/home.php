@@ -296,7 +296,37 @@ $this->load->view('layout/header');
     </section>
     <!-- section end-->
 
+    <!-- section start-->
+    <section class="section testimonials y">
+        <div class="testimonials__bg"><img class="section--bg t50 r0" src="<?php echo base_url(); ?>assets/img/testimonials-bg.png" alt="img"/></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="heading heading--white"><span class="heading__pre-title">Leading Logistics Company</span>
+                        <h3 class="heading__title">Director's  <span class="color--green">Message</span> </h3><span class="heading__layout layout--dgray"></span>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center">
 
+                    <div class="testimonials__nav"></div><img class="testimonials__img" src="<?php echo base_url(); ?>assets/images/director.jpeg" alt="img"/>
+                </div>
+                <div class="col-lg-6 ">
+                    <div class="testimonials-slider" style="    margin-top: 100px;">
+                        <div class="testimonials-slider__item">
+                            <p>We started very small but due to the hardwork of my team, we have reached an international status.</p>
+                            <p>We have always provided quality services to our clients and have never looked at the companies we do business with just as our clients rather as our partners and it has benefitted us a lot. </p>
+                            <p>   Now our goal is to become one of the leading logistics company in the world.</p>
+                            <div class="testimonials-slider__author"><img src="<?php echo base_url(); ?>assets/img/quotes.png" alt="img"/>
+                                <h6>Director</h6><span>Smart Tech Logistics (HK) Ltd</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section end-->
 
     <!-- section start-->
     <section class="section">
@@ -311,20 +341,20 @@ $this->load->view('layout/header');
                     </p>
                     <div class="row top-20">
                         <div class="col-sm-6 col-lg-6 col-xl-6">
-                      
+
                             <ul class="list list--check list--reset">
                                 <li class="list__item">Pakistan</li>
                                 <li class="list__item">Dubai</li>
                                 <li class="list__item">India</li>
                                 <li class="list__item">Philippines</li>
-                             
+
                             </ul>
                         </div>
                         <div class="col-sm-6 col-lg-6 col-xl-6">
-                      
+
                             <ul class="list list--check list--reset">
 
-                                 <li class="list__item">Thailand</li>
+                                <li class="list__item">Thailand</li>
                                 <li class="list__item">Afghanistan</li>
                                 <li class="list__item">Iran</li>
                                 <li class="list__item">Cambodia</li>

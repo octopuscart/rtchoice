@@ -8,19 +8,18 @@ $ci->load->helper('url');
 <?php
 include APPPATH . '/views/layout/header.php';
 ?>
-<!-- Content -->
-<div id="content"> 
-    <section class="page_title bg_gradiant image_fixed t_align_c relative wrapper" style="margin-top: 0px;">
-        <img src="images/page_404.jpg" alt="" class="page_404 d_xs_none">
-        <h1 class="color_light fw_light m_bottom_12 text-center">Error 404 Page</h1>
-        <!--breadcrumbs-->
-        <h4 class="color_grey_light_3 text-center" style="margin-bottom: 50px; ">This Page Could Not Be Found :(</h4>
-       <center style="margin-bottom: 50px; ">
-           <a href="/"  style="    font-size: 20px;" class=" text-center btn btn-danger">BACK TO HOME</a>
-       </center>
+	<!--Error Section-->
+    <section class="error-section">
+    	<div class="auto-container">
+        	<div class="content">
+            	<h1>404</h1>
+                <h2>Oops! That page can’t be found</h2>
+                <div class="text">Sorry, but the page you are looking for does not existing</div>
+				<a href="index.html" class="theme-btn btn-style-three"><span class="txt">Go to Home Page</span></a>
+            </div>
+        </div>
     </section>
-</div>
-<!-- End Content --> 
+    <!--End Error Section-->
 <?php
 include APPPATH . '/views/layout/footer.php';
 ?>

@@ -1,88 +1,176 @@
-<!-- footer start-->
-<footer class="page-footer footer_2"><img class="section--bg b0 r0" src="<?php echo base_url(); ?>assets/img/footer-bg.png" alt="bg"/>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 col-lg-4">
-                <div class="page-footer__details ">
-                    <strong>Head Office:</strong><br/>
-                    <p class="top-20"> <span>89 Ta Chuen ping Street Kwai Wu Ind.Bldg., <br/>Unit 402 Kwai Chung, N.T.Hong Kong</span></p>
-                    <p><strong>Phone:</strong> <a href="tel:+ 852 2736 6552">+(852) 2736 6552</a></p>
-                    <p><strong>Fax:</strong> <a href="tel:+ 852 2736 6770">+(852) 2736 6770</a></p>
-                    <p><strong>Email:</strong> <a href="mailto:smarttech8@biznetvigator.com">smarttech8@biznetvigator.com</a></p>
-                    <p><strong>Openning hours:</strong> <span>9:00 AM - 9:00 PM</span></p>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4">
-                <div class="page-footer__details">
-                    <strong>Karachi (Pakistan) Office:</strong><br/>
-                    <p class="top-20"> <span>Quality Freight Systems 163/A, Adam-Jee-Nagar,<br/> Near Makkah Masjid, off Tipu Sultan Road <br/>Karachi-Pakistan</span></p>
-                    <p><strong>Phone:</strong> <a href="tel:+92 21 3454 7966">+92 21 3454 7966</a></p>
-                    <p><strong>Fax:</strong> <a href="tel:+92 21 3453 3770">+92 21 3453 3770</a></p>
-                    <p><strong>Mobile:</strong> <a href="tel:+92 321 243 0430">+92 321 243 0430</a></p>
+
+<!-- Info Section -->
+<section class="info-section" style="background-image: url(<?php echo base_url(); ?>assets/images/background/6.jpg)">
+    <div class="auto-container">
+        <div class="row clearfix">
+
+
+
+            <!-- Info Column -->
+            <div class="info-column col-lg-4 col-md-6 col-sm-12">
+                <div class="inner-column">
+                    <div class="icon-box"><span class="flaticon-pin"></span></div>
+                    <ul>
+                        <li><strong>Address</strong></li>
+                        <li>ROOM 701, 7/F, NO. 23 <br/> HILLWOOD ROAD, TST, <br/> KOWLOON, HONG KONG<br/>
+                            香港九龍尖沙咀23號山林道701室</li>
+                    </ul>
                 </div>
             </div>
 
-            <div class="col-lg-4 top-30 top-lg-0">
-                <div class="page-footer__details">
-                    <strong>Lahore (Pakistan) Office:</strong><br/>
-                    <p class="top-20"> <span>Mr.Muhammad Bashir</span></p>
-                    <p><strong>Phone:</strong> <a href="tel:+92 321 243 0430">+92 321 243 0430</a></p>
-                  
+            <!-- Info Column -->
+            <div class="info-column col-lg-4 col-md-6 col-sm-12">
+                <div class="inner-column">
+                    <div class="icon-box"><span class="flaticon-phone-call"></span></div>
+                    <ul>
+                        <li><strong>Phone</strong></li>
+                        <li>+(852) 9109 3079<li/>
+
+                        <li>+(86) 187 1773 3711</li>       
+                        <li>+(852) 9259 4859</li>
+                    </ul>
                 </div>
-                <h6 class="page-footer__title title--white top-30">Newslatter</h6>
-                <form class="form newslatter-form" action="javascript:void(0);">
-                    <div class="fieldset">
-                        <input class="form__field" type="email" name="email" placeholder="Email address"/>
-                        <button class="form__submit" type="submit">
-                            <svg class="icon">
-                            <use xlink:href="#mail"></use>
-                            </svg>
-                        </button>
+            </div>
+
+            <!-- Info Column -->
+            <div class="info-column col-lg-4 col-md-6 col-sm-12">
+                <div class="inner-column">
+                    <div class="icon-box"><span class="flaticon-email-1"></span></div>
+                    <ul>
+                        <li><strong>E-Mail</strong></li>
+                        <li>    info@rightchoicehk.com</li>
+                        <li>    terry@rightchoicehk.com</li>
+                        <li>    beatrice@rightchoicehk.com</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- End Info Section -->
+
+<!-- Main Footer -->
+<footer class="main-footer style-three">
+    <div class="pattern-layer-three" style="background-image: url(<?php echo base_url(); ?>assets/images/background/pattern-14.png)"></div>
+    <div class="pattern-layer-four" style="background-image: url(<?php echo base_url(); ?>assets/images/background/pattern-15.png)"></div>
+    <!--Waves end-->
+    <div class="auto-container">
+        <!--Widgets Section-->
+        <div class="widgets-section">
+            <div class="row clearfix">
+
+                <!-- Footer Column -->
+                <div class="footer-column col-lg-4 col-md-6 col-sm-12">
+                    <div class="footer-widget logo-widget">
+                        <h5>RIGHT CHOICE GLOBAL LTD.<br/>
+
+                            輝蘊有限公司 </h5>
+                        <div class="text">We are specialized consulting firm to serve the business community through the expertise and technical skills of
+                            its professional team and their dedication to providing high quality professional services.<br/><br/>
+                            We have provided professional services to large organizations in Hong Kong and other countries.</div>
                     </div>
-                    <p class="color--gray">Stay tuned for our latest news</p>
-                </form>
+                </div>
+
+                <!-- Footer Column -->
+                <div class="footer-column col-lg-3 col-md-6 col-sm-12">
+                    <div class="footer-widget links-widget">
+                        <h5>Quick Links</h5>
+                        <ul class="list-link">
+                            <?php
+                             $servicesblock1 = [
+                    array("title" => "Anti Covid-19", "description" => "", "imges" => ""),
+                    array("title" => "F&B Services", "description" => "", "imges" => ""),
+                    array("title" => "Construction", "description" => "", "imges" => ""),
+                    array("title" => "Business Services", "description" => "", "imges" => ""),
+                    array("title" => "Trading Services ", "description" => "", "imges" => ""),
+                    array("title" => "Company Formation ", "description" => "", "imges" => ""),
+                    array("title" => "Accounting", "description" => "", "imges" => ""),
+                    array("title" => "IT Services", "description" => "", "imges" => ""),
+                ];
+                foreach ($servicesblock1 as $key => $value) {
+                    ?>
+                              <li><a href="#"><?php
+                              echo $value["title"];
+                              ?></a></li>
+                        <?php
+                }
+                            ?>
+                          
+                         
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Footer Column -->
+                <div class="footer-column col-lg-5 col-md-6 col-sm-12">
+                    <div class="footer-widget subscribe-widget">
+                        <h5>Subscribe Newsletter</h5>
+                        <div class="text">Sign up today for hints, tips and <br> the latest product news</div>
+                        <!--Emailed Form-->
+                        <div class="emailed-form">
+                            <form method="post" action="">
+                                <div class="form-group">
+                                    <input type="email" name="email" value="" placeholder="Enter Your Email" required>
+                                    <button type="submit" class="theme-btn">Subscribe Now</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
-        <div class="row top-50 flex-column-reverse flex-sm-row">
-            <div class="col-sm-6 col-lg-4 top-20 top-sm-0 text-center text-sm-left">
-                <div class="page-footer__copyright">© <?php echo date("Y") ?> smarttechlogisticshk.com. All rights reserved</div>
-            </div>
-            <div class="col-sm-6 col-lg-8 d-flex justify-content-center justify-content-sm-end justify-content-lg-between">
-                <div class="page-footer__privacy d-none d-lg-block"><a href="#">Terms and conditions</a><a href="#">Privacy policy</a><a href="#">Cookies</a></div>
-                <ul class="socials list--reset">
-                    <li class="socials__item"><a class="socials__link" href="#">
-                            <svg class="icon">
-                            <use xlink:href="#youtube"></use>
-                            </svg></a></li>
-                    <li class="socials__item"><a class="socials__link" href="#">
-                            <svg class="icon">
-                            <use xlink:href="#facebook"></use>
-                            </svg></a></li>
-                    <li class="socials__item"><a class="socials__link" href="#">
-                            <svg class="icon">
-                            <use xlink:href="#twitter"></use>
-                            </svg></a></li>
-                    <li class="socials__item"><a class="socials__link" href="#">
-                            <svg class="icon">
-                            <use xlink:href="#linkedin"></use>
-                            </svg></a></li>
-                    <li class="socials__item"><a class="socials__link" href="#">
-                            <svg class="icon">
-                            <use xlink:href="#inst"></use>
-                            </svg></a></li>
-                </ul>
+
+    </div>
+
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+        <div class="auto-container">
+            <div class="row clearfix">
+                <!-- Column -->
+                <div class="column col-lg-6 col-md-12 col-sm-12">
+                    <div class="copyright">Copyright &copy; <?php echo date("Y") ?> by www.rightchoicehk.com | All Rights Reserved.</div>
+                </div>
+                <!-- Column -->
+                <div class="column col-lg-6 col-md-12 col-sm-12">
+                    <ul class="footer-nav">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Privacy</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
-</footer>
-<!-- footer end-->
-</div>
-<!-- libs-->
-<script src="<?php echo base_url(); ?>assets/js/2.2.4/jquery.min.js"></script>
-<script src="<?php echo base_url(); ?>assets/js/libs.min.js"></script>
-<!-- scripts-->
-<script src="<?php echo base_url(); ?>assets/js/common.min.js"></script>
 
+</footer>
+
+</div>
+<!--End pagewrapper-->
+
+<!-- Color Palate / Color Switcher -->
+
+
+
+<!--Scroll to top-->
+<div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-arrow-up"></span></div>
+
+<script src="<?php echo base_url(); ?>assets/js/jquery.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/popper.min.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/bootstrap.min.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/jquery.fancybox.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/appear.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/parallax.min.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/tilt.jquery.min.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/jquery.paroller.min.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/owl.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/wow.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/nav-tool.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/jquery-ui.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/script.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/color-settings.js"></script>
 
 </body>
 

@@ -3,26 +3,18 @@ $this->load->view('layout/header');
 ?>
 
 
-
-<!--Start 404 Error-->
-<section class="error bg-gradient pad-tb">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 text-center mt50 mb50">
-                <div class="layer-div">
-                    <div class="error-block">
-                        <h1>Page not Found</h1>
-              
-                        <div class="images mt20">
-                            <img src="<?php echo base_url(); ?>assets/theme/images/shape/error-page.png" alt="error page" class="img-fluid"/>
-                        </div>
-                        <a href="<?php echo site_url("/");?>" class="btn-outline">Back to Home</a>
-                    </div>
-                </div>
-            </div>
+<!--Error Section-->
+<section class="error-section" style='padding-top: 100px;'>
+    <div class="auto-container">
+        <div class="content">
+            <h1>404</h1>
+            <h2>Oops! That page can’t be found</h2>
+            <div class="text">Sorry, but the page you are looking for does not existing</div>
+            <a href="<?php echo site_url("/"); ?>" class="theme-btn btn-style-three"><span class="txt">Go to Home Page</span></a>
         </div>
     </div>
 </section>
+<!--End Error Section-->
 <!--End 404 Error-->
 
 <?php

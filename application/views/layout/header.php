@@ -244,20 +244,20 @@
                             <div class="sidebar-info-contents">
                                 <div class="content-inner">
                                     <div class="logo">
-                                        <a href=""><img src="images/logo-2.png" alt="" /></a>
+                                        <a href=""><img src="<?php echo base_url(); ?>assets/images/logo-2.png" alt="" /></a>
                                     </div>
                                     <div class="content-box">
                                         <h2>About Us</h2>
-                                        <p class="text">The argument in favor of using filler text goes something like this: If you use real content in the Consulting Process, anytime you reach a review point you’ll end up reviewing and negotiating the content itself and not the design.</p>
+                                        <p class="text">We are specialized consulting firm to serve the business community through the expertise and technical skills of its professional team and their dedication to providing high quality professional services. </p>
                                         <a href="#" class="theme-btn btn-style-two"><span class="txt">Consultation</span></a>
                                     </div>
                                     <div class="contact-info">
                                         <h2>Contact Info</h2>
                                         <ul class="list-style-one">
-                                            <li><span class="icon fa fa-location-arrow"></span>Chicago 12, Melborne City, USA</li>
-                                            <li><span class="icon fa fa-phone"></span>(111) 111-111-1111</li>
-                                            <li><span class="icon fa fa-envelope"></span>globex@gmail.com</li>
-                                            <li><span class="icon fa fa-clock-o"></span>Week Days: 09.00 to 18.00 Sunday: Closed</li>
+                                            <li style='font-size: 12px;'><span class="icon fa fa-location-arrow"></span>ROOM 701, 7/F, NO. 23 <br/> HILLWOOD ROAD, TST, <br/> KOWLOON, HONG KONG<br/>
+                                                香港九龍尖沙咀23號山林道701室</li>
+                                            <li><span class="icon fa fa-phone"></span>+(852) 9109 3079</li>
+                                            <li><span class="icon fa fa-envelope"></span>info@rightchoicehk.com</li>
                                         </ul>
                                     </div>
                                     <!-- Social Box -->
